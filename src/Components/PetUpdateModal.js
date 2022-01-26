@@ -41,12 +41,12 @@ function PetUpdateModal({ defaultPet }) {
                 placeholder="Enter name"
               />
               <Form.Text className="text-muted">
-                We'll never share your name with anyone else.
+                change the name of the pet!
               </Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>Select the category of the pet you want</Form.Label>
+              <Form.Label>Select the category of the pet </Form.Label>
               <Form.Select
                 value={update.type}
                 name="type"
@@ -58,9 +58,7 @@ function PetUpdateModal({ defaultPet }) {
               </Form.Select>
             </Form.Group>
             <Form.Group class="form-group">
-              <Form.Label for="exampleFormControlFile1">
-                upload pet image
-              </Form.Label>
+              <Form.Label for="exampleFormControlFile1">pet image</Form.Label>
               <Form.Control
                 type="text"
                 value={update.image}
